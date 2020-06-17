@@ -1,0 +1,8 @@
+{
+    "projectName": "amplify-datastore-cash-flow",
+    "version": "3.0",
+    "frontend": "ios",
+    "providers": [
+        "awscloudformation"
+    ]
+}

@@ -3,19 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A5D925FFEF04048B344741E /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = D14EE655FC7E4E028D236011 /* amplifyconfiguration.json */; };
 		9E658D37249A67180010C3F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E658D36249A67180010C3F9 /* AppDelegate.swift */; };
 		9E658D39249A67180010C3F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E658D38249A67180010C3F9 /* SceneDelegate.swift */; };
 		9E658D3B249A67180010C3F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E658D3A249A67180010C3F9 /* ContentView.swift */; };
 		9E658D3D249A67190010C3F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E658D3C249A67190010C3F9 /* Assets.xcassets */; };
 		9E658D40249A67190010C3F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E658D3F249A67190010C3F9 /* Preview Assets.xcassets */; };
 		9E658D43249A67190010C3F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E658D41249A67190010C3F9 /* LaunchScreen.storyboard */; };
+		9FD44D34C0044482A2577CBC /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B58180A48E443D696D44A0E /* awsconfiguration.json */; };
+		E1EAFEA80B62B59F5D20147E /* Pods_Cash_Flow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8840D8D95A38D42814D19386 /* Pods_Cash_Flow.framework */; };
+		3AE800A672384D78B0976CB5 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C81784C489423684D0E1B7 /* Account.swift */; };
+		F53FEA2FFB7049279DEB6072 /* Account+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCEC78B208E4F0ABAF0DE7F /* Account+Schema.swift */; };
+		F5CEA9FC8C4447CFBAFB10B3 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DD82DEED548848B90748D /* AmplifyModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		692329D7143D4DC68940CF23 /* schema.graphql */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text; name = schema.graphql; path = amplify/backend/api/amplifyDatasource/schema.graphql; sourceTree = "<group>"; };
+		6B58180A48E443D696D44A0E /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = awsconfiguration.json; sourceTree = "<group>"; };
+		79030AF18A3B29456CD6D4CF /* Pods-Cash-Flow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cash-Flow.debug.xcconfig"; path = "Target Support Files/Pods-Cash-Flow/Pods-Cash-Flow.debug.xcconfig"; sourceTree = "<group>"; };
+		8840D8D95A38D42814D19386 /* Pods_Cash_Flow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cash_Flow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE328A1F24E0D4C7808C116 /* Pods-Cash-Flow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cash-Flow.release.xcconfig"; path = "Target Support Files/Pods-Cash-Flow/Pods-Cash-Flow.release.xcconfig"; sourceTree = "<group>"; };
 		9E658D33249A67180010C3F9 /* Cash-Flow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cash-Flow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E658D36249A67180010C3F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E658D38249A67180010C3F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,11 @@
 		9E658D3F249A67190010C3F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9E658D42249A67190010C3F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E658D44249A67190010C3F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDDD1014BDF5433EAEE17A0A /* amplifytools.xcconfig */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.xcconfig; path = amplifytools.xcconfig; sourceTree = "<group>"; };
+		D14EE655FC7E4E028D236011 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		E3C81784C489423684D0E1B7 /* Account.swift */ = {isa = PBXFileReference; name = "Account.swift"; path = "amplify/generated/models/Account.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		6FCEC78B208E4F0ABAF0DE7F /* Account+Schema.swift */ = {isa = PBXFileReference; name = "Account+Schema.swift"; path = "amplify/generated/models/Account+Schema.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		043DD82DEED548848B90748D /* AmplifyModels.swift */ = {isa = PBXFileReference; name = "AmplifyModels.swift"; path = "amplify/generated/models/AmplifyModels.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1EAFEA80B62B59F5D20147E /* Pods_Cash_Flow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22B102EDC4B60E141EC09CA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8840D8D95A38D42814D19386 /* Pods_Cash_Flow.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9277D3867F496D17E5660D07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79030AF18A3B29456CD6D4CF /* Pods-Cash-Flow.debug.xcconfig */,
+				8CE328A1F24E0D4C7808C116 /* Pods-Cash-Flow.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9E658D2A249A67180010C3F9 = {
 			isa = PBXGroup;
 			children = (
+				F565783322724E998B3C9727 /* AmplifyModels */,
+				A0C419C3544E4986B83C9607 /* AmplifyConfig */,
 				9E658D35249A67180010C3F9 /* Cash-Flow */,
 				9E658D34249A67180010C3F9 /* Products */,
+				9277D3867F496D17E5660D07 /* Pods */,
+				22B102EDC4B60E141EC09CA6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,6 +113,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A0C419C3544E4986B83C9607 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				CDDD1014BDF5433EAEE17A0A /* amplifytools.xcconfig */,
+				D14EE655FC7E4E028D236011 /* amplifyconfiguration.json */,
+				6B58180A48E443D696D44A0E /* awsconfiguration.json */,
+				692329D7143D4DC68940CF23 /* schema.graphql */,
+			);
+			name = AmplifyConfig;
+			path = .;
+			sourceTree = "<group>";
+		};
+		F565783322724E998B3C9727 /* AmplifyModels */ = {
+			isa = PBXGroup;
+			children = (
+				E3C81784C489423684D0E1B7 /* Account.swift */,
+				6FCEC78B208E4F0ABAF0DE7F /* Account+Schema.swift */,
+				043DD82DEED548848B90748D /* AmplifyModels.swift */,
+			);
+			name = AmplifyModels;
+			path = .;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +143,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E658D47249A67190010C3F9 /* Build configuration list for PBXNativeTarget "Cash-Flow" */;
 			buildPhases = (
+				16D7202EDAC214400CED9FF0 /* [CP] Check Pods Manifest.lock */,
+				9E658D4A249A6BB20010C3F9 /* Run Amplify Tools */,
 				9E658D2F249A67180010C3F9 /* Sources */,
 				9E658D30249A67180010C3F9 /* Frameworks */,
 				9E658D31249A67180010C3F9 /* Resources */,
+				B54D3E4B16BFD2284BC54555 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,10 +200,72 @@
 				9E658D43249A67190010C3F9 /* LaunchScreen.storyboard in Resources */,
 				9E658D40249A67190010C3F9 /* Preview Assets.xcassets in Resources */,
 				9E658D3D249A67190010C3F9 /* Assets.xcassets in Resources */,
+				5A5D925FFEF04048B344741E /* amplifyconfiguration.json in Resources */,
+				9FD44D34C0044482A2577CBC /* awsconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16D7202EDAC214400CED9FF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cash-Flow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E658D4A249A6BB20010C3F9 /* Run Amplify Tools */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Amplify Tools";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/AmplifyTools/amplify-tools.sh\"\n";
+		};
+		B54D3E4B16BFD2284BC54555 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cash-Flow/Pods-Cash-Flow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cash-Flow/Pods-Cash-Flow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cash-Flow/Pods-Cash-Flow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9E658D2F249A67180010C3F9 /* Sources */ = {
@@ -149,6 +275,9 @@
 				9E658D37249A67180010C3F9 /* AppDelegate.swift in Sources */,
 				9E658D39249A67180010C3F9 /* SceneDelegate.swift in Sources */,
 				9E658D3B249A67180010C3F9 /* ContentView.swift in Sources */,
+				3AE800A672384D78B0976CB5 /* Account.swift in Sources */,
+				F53FEA2FFB7049279DEB6072 /* Account+Schema.swift in Sources */,
+				F5CEA9FC8C4447CFBAFB10B3 /* AmplifyModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +411,7 @@
 		};
 		9E658D48249A67190010C3F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79030AF18A3B29456CD6D4CF /* Pods-Cash-Flow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +432,7 @@
 		};
 		9E658D49249A67190010C3F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CE328A1F24E0D4C7808C116 /* Pods-Cash-Flow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

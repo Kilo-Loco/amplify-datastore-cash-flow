@@ -1,0 +1,4 @@
+type Account @model {
+  id: ID!
+  balance: Float!
+}
