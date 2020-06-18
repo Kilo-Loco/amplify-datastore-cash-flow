@@ -1,5 +1,7 @@
 # Saving to the Device with AWS Amplify DataStore
+
 <img src="assets/saving-to-the-device-datastore-banner.png" alt="App Screenshot")>
+
 Last month, AWS launched their open-source `Amplify Libraries` for both iOS and Android, making it extremely easy to implement common features like authentication, data synchronization, file storage, and much more.
 
 Today, we are going work with `DataStore`, a library that focuses on providing a seamless experience for shared and distributed data, but also offers a simple solution to local persistence.
