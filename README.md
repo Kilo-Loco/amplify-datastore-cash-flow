@@ -1,5 +1,6 @@
 # AWS Amplify DataStore - Cash Flow App
 A tutorial focused on building an app that allows the user to track their cash flow by adding and subtracting currency amounts from their total balance. **AWS Amplify DataStore** is used to persist the user's account balance between sessions.
+
 <img src="assets/app-screenshot.png" alt="App Screenshot" height=500)>
 
 ### Topics we'll be covering
@@ -12,6 +13,7 @@ A tutorial focused on building an app that allows the user to track their cash f
 
 ### Configuring the project
 Create a new Single View App.
+
 <img src="assets/single-view-app.png" alt="Single View App" height=500)>
 
 Name the project whatever you would like; I will be using the name `Cash-Flow`.
@@ -19,10 +21,12 @@ Name the project whatever you would like; I will be using the name `Cash-Flow`.
 > It is strongly recommended that your project name does not contain spaces as this could cause complications with **Amplify** as well as any other dependencies you decide to add to the project.
 
 <img src="assets/project-options.png" alt="Project Options" height=500)>
+
 In this tutorial, we will be using **SwiftUI**.
 
 ### Laying out the UI
 If we examine the UI that we are trying to build, we can see that it is made up of several `VStack` views (shown in shades of blue) and an `HStack` view (shown in orange). We also have some `Spacer` views (shown in black) that help align our content towards the top of the screen.
+
 <img src="assets/app-screenshot-ui-breakdown.png" alt="UI Breakdown" height=500)>
 
 Let's start building this out in code, starting with each of the stacks views we will be using. In the `body` property of `ContentView.swift`, add the following:
@@ -53,6 +57,7 @@ var body: some View {
 2. A `Spacer` that adds 50px of space from the top of the screen.
 3. The `VStack` that groups together the "Current Balance" `Text` view and another `Text` view that will be responsible for displaying the dynamic account balance. We are using "$0.00" as a placeholder for now.
 4. Another `Spacer` responsible for pushing the content towards the top of the screen.
+
 <img src="assets/app-screenshot-current-balance.png" alt="Current Balance" height=500)>
 
 Next, let's add the `VStack` that is responsible for holding the interactable views (`TextField` and two `Button` views). This will be below the `VStack` holding the Current Balance `Text` view value and above the bottom `Spacer`.
@@ -150,6 +155,7 @@ var amountFormatterBinding: Binding<String> {
 > We are forced to manually create `amountFormatterBinding` because we need `amount` to be updated as the user types, but using something like `TextField(_ title: StringProtocol, value: Binding<T>, formatter: Formatter)` will only update `amount` whenever the user taps the `Return` key on the keyboard, which a `.decimalPad` does not have.
 
 Our UI layout is complete at this point:
+
 <img src="assets/app-screenshot-finished-ui.png" alt="Finished UI" height=500)>
 
 Let's finish up the basics by simply creating the `add()` and `subtract()` methods which can be set as the actions for our buttons. Below the `body` property and before the `ContentView` closing brace, add the following:
