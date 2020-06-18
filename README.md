@@ -268,8 +268,6 @@ Now simply build the project.
 >
 > If you run into any errors during this build, try cleaning the project (`Cmd + Shift + K`) and building again (`Cmd + B`).
 
-<img src="assets/" alt="" height=500>
-
 
 ### Generating `Account` model
 Now that our project is properly configured with `Amplify`, we can finally create our `Account` model.
