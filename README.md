@@ -12,7 +12,7 @@ A tutorial focused on building an app that allows the user to track their cash f
 
 ### Configuring the project
 Create a new Single View App.
-![Single View App](assets/single-view-app.png | height=300)
+<img src="assets/single-view-app.png" alt="Single View App" height=300)
 
 Name the project whatever you would like; I will be using the name `Cash-Flow`.
 > **Note**
