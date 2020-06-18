@@ -241,7 +241,7 @@ Next we will be adding a new run script to the project so that the `Amplify Tool
 
 Open up `Build Phases`
 
-<img src="assets/xcode-screenshot-build-phases.png" alt="Open Build Phases" height=500>
+<img src="assets/xcode-screenshot-build-phases.png" alt="Open Build Phases">
 
 Create a new `Run Script Phase`
 
@@ -260,7 +260,7 @@ Add the following line to the "Run Amplify Tools" script area:
 
 Your `Build Phases` area should now look like this:
 
-<img src="assets/xcode-screenshot-final-build-phases.png" alt="Final Build Phases Layout" height=500>
+<img src="assets/xcode-screenshot-final-build-phases.png" alt="Final Build Phases Layout">
 
 Now simply build the project.
 `Cmd + B`
