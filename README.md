@@ -12,7 +12,7 @@ A tutorial focused on building an app that allows the user to track their cash f
   - Read
   - Update
 
-### Prerequisits
+### Prerequisites
 - Install [Node.js](https://nodejs.org/en/) version 10 or higher
 - Install [Xcode](https://developer.apple.com/xcode/downloads/) version 10.2 or later
 - Install [CocoaPods](https://cocoapods.org/)
