@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AE800A672384D78B0976CB5 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C81784C489423684D0E1B7 /* Account.swift */; };
 		5A5D925FFEF04048B344741E /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = D14EE655FC7E4E028D236011 /* amplifyconfiguration.json */; };
 		9E658D37249A67180010C3F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E658D36249A67180010C3F9 /* AppDelegate.swift */; };
 		9E658D39249A67180010C3F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E658D38249A67180010C3F9 /* SceneDelegate.swift */; };
@@ -16,14 +17,15 @@
 		9E658D43249A67190010C3F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E658D41249A67190010C3F9 /* LaunchScreen.storyboard */; };
 		9FD44D34C0044482A2577CBC /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B58180A48E443D696D44A0E /* awsconfiguration.json */; };
 		E1EAFEA80B62B59F5D20147E /* Pods_Cash_Flow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8840D8D95A38D42814D19386 /* Pods_Cash_Flow.framework */; };
-		3AE800A672384D78B0976CB5 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C81784C489423684D0E1B7 /* Account.swift */; };
 		F53FEA2FFB7049279DEB6072 /* Account+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCEC78B208E4F0ABAF0DE7F /* Account+Schema.swift */; };
 		F5CEA9FC8C4447CFBAFB10B3 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DD82DEED548848B90748D /* AmplifyModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		043DD82DEED548848B90748D /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
 		692329D7143D4DC68940CF23 /* schema.graphql */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text; name = schema.graphql; path = amplify/backend/api/amplifyDatasource/schema.graphql; sourceTree = "<group>"; };
 		6B58180A48E443D696D44A0E /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = awsconfiguration.json; sourceTree = "<group>"; };
+		6FCEC78B208E4F0ABAF0DE7F /* Account+Schema.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "Account+Schema.swift"; path = "amplify/generated/models/Account+Schema.swift"; sourceTree = "<group>"; };
 		79030AF18A3B29456CD6D4CF /* Pods-Cash-Flow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cash-Flow.debug.xcconfig"; path = "Target Support Files/Pods-Cash-Flow/Pods-Cash-Flow.debug.xcconfig"; sourceTree = "<group>"; };
 		8840D8D95A38D42814D19386 /* Pods_Cash_Flow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cash_Flow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE328A1F24E0D4C7808C116 /* Pods-Cash-Flow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cash-Flow.release.xcconfig"; path = "Target Support Files/Pods-Cash-Flow/Pods-Cash-Flow.release.xcconfig"; sourceTree = "<group>"; };
@@ -37,9 +39,7 @@
 		9E658D44249A67190010C3F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDDD1014BDF5433EAEE17A0A /* amplifytools.xcconfig */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.xcconfig; path = amplifytools.xcconfig; sourceTree = "<group>"; };
 		D14EE655FC7E4E028D236011 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = amplifyconfiguration.json; sourceTree = "<group>"; };
-		E3C81784C489423684D0E1B7 /* Account.swift */ = {isa = PBXFileReference; name = "Account.swift"; path = "amplify/generated/models/Account.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		6FCEC78B208E4F0ABAF0DE7F /* Account+Schema.swift */ = {isa = PBXFileReference; name = "Account+Schema.swift"; path = "amplify/generated/models/Account+Schema.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		043DD82DEED548848B90748D /* AmplifyModels.swift */ = {isa = PBXFileReference; name = "AmplifyModels.swift"; path = "amplify/generated/models/AmplifyModels.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		E3C81784C489423684D0E1B7 /* Account.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = Account.swift; path = amplify/generated/models/Account.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

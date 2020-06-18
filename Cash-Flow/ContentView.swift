@@ -11,12 +11,12 @@ import SwiftUI
 
 struct ContentView: View {
     @State var account: Account?
-    @State var amount: Double = 0.00
+    @State var amount: Double = 0.0
     
     var balance: String {
         let accountBalance = NSNumber(value: self.account?.balance ?? 0)
         let currencyBalance = self.currencyFormatter.string(from: accountBalance)
-        return currencyBalance ?? "No Account"
+        return currencyBalance ?? "$0.00"
     }
     
     private let currencyFormatter: NumberFormatter = {
@@ -97,9 +97,9 @@ struct ContentView: View {
         Amplify.DataStore.save(account) { result in
             switch result {
                 
-            case .success(let account):
-                print("Account created - \(account)")
-                self.account = account
+            case .success(let createdAccount):
+                print("Account created - \(createdAccount)")
+                self.account = createdAccount
                 
             case .failure(let error):
                 print("Could not create account - \(error)")
@@ -139,7 +139,7 @@ struct ContentView: View {
         
         resetAmount()
     }
-    
+
     func subtract() {
         let currentBalance = account?.balance ?? 0
         let newBalance = currentBalance - amount
@@ -150,9 +150,8 @@ struct ContentView: View {
     }
     
     func updateBalance(to newBalance: Double) {
-        account?.balance = newBalance
-        
-        guard let account = self.account else { return }
+        guard var account = self.account else { return }
+        account.balance = newBalance
         
         Amplify.DataStore.save(account) { result in
             switch result {
