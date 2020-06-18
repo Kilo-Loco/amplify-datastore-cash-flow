@@ -1,5 +1,10 @@
-# AWS Amplify DataStore - Cash Flow App
-A tutorial focused on building an app that allows the user to track their cash flow by adding and subtracting currency amounts from their total balance. **AWS Amplify DataStore** is used to persist the user's account balance between sessions.
+# Saving to the Device with AWS Amplify DataStore
+## Cash Flow App (SwiftUI)
+Last month, AWS launched their open-source `Amplify Libraries` for both iOS and Android, making it extremely easy to implement common features like authentication, data synchronization, file storage, and much more.
+
+Today, we are going work with `DataStore`, a library that focuses on providing a seamless experience for shared and distributed data, but also offers a simple solution to local persistence.
+
+In this tutorial, we will be using `SwiftUI` and `DataStore`'s local persistence to create an app called Cash Flow. This will be a simple app that allows the user to keep track of their transactions by adding and subtracting inputted amounts to and from their account balance.
 
 <img src="assets/app-screenshot.png" alt="App Screenshot" height=500)>
 
